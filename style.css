@@ -1,0 +1,120 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c2c2c;
+  background: #f8f9fa;
+  margin: 0;
+}
+
+.navbar {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+.navbar-brand img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.banner {
+  position: relative;
+}
+.banner .carousel-item {
+  min-height: calc(100vh - 56px);
+}
+.banner .carousel-item img,
+.banner .carousel-item video {
+  width: 100%;
+  min-height: calc(100vh - 56px);
+  object-fit: cover;
+}
+
+.about-us {
+  background: #fff;
+}
+.about-us h2,
+.service h2 {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.4rem;
+  color: #212529;
+}
+
+.about-us .position-relative {
+  min-height: 320px;
+}
+.about-us .position-relative img {
+  transition: transform 0.3s ease;
+}
+.about-us .position-relative img:hover {
+  transform: translateY(-2px);
+}
+
+.service {
+  background: transparent;
+}
+.service .card {
+  border: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.service .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+.service .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  border-color: #0d6efd;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.text-decoration-line-through {
+  text-decoration-thickness: 2px;
+}
+.blog {
+  background: transparent;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.blog h2 {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.4rem;
+  color: #212529;
+}
+
+.blog .card {
+  border: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.blog .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.blog .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  border-radius: 20px;
+}
+
+.blog-section .card img{
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
